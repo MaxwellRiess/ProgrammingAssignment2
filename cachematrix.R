@@ -1,7 +1,6 @@
 ## Togther these functions takes a square matrix and returns the inverse of 
 ##that martix.  
 
-
 ## The makeCacheMatrix function takes a square matrix as it argument and returns 
 ## a list of function which are use to store the original matrix and its inverse
 ## when it is calculated. 
@@ -43,5 +42,5 @@ cacheSolve <- function(x, ...) {
         x$setinverse(inverse)
         inverse
 }
-        ## Return a matrix that is the inverse of 'x'
+
 
